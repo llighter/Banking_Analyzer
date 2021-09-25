@@ -21,7 +21,7 @@ java -cp (현재디렉토리)/target/classes com.llighter.demo.App sample.csv
 ## 구현내용
 
 * `sample.csv` 파일을 파싱하여 입출금 내역에 대한 리포트를 `HTML` 형식으로 출력
-![](./src/resources/report_sample.png)
+![report sample](./src/resources/report_sample.png)
 
 ## TODO
 
