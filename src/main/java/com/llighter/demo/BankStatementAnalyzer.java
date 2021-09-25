@@ -26,5 +26,6 @@ public class BankStatementAnalyzer {
         System.out.println("The total for transaction in January is " + bankStatementProcessor.calculateTotalInMonth(Month.JANUARY));
         System.out.println("The total for transaction in February is " + bankStatementProcessor.calculateTotalInMonth(Month.FEBRUARY));
         System.out.println("The total salary received is " + bankStatementProcessor.calculateTotalForCategory("Salary"));
+        System.out.println("특정 금액 이상의 은행 거래 내역: " + bankStatementProcessor.findTransactionsGreaterThanEqual(2000));
     }
 }
