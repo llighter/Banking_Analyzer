@@ -12,6 +12,8 @@ public class App {
 
         final BankStatementParser bankStatementParser = new BankStatementCSVParser();
 
-        bankStatementAnalyzer.analyze(args[0], bankStatementParser);
+        final Exporter exporter = new HtmlExporter();
+
+        bankStatementAnalyzer.analyze(args[0], bankStatementParser, exporter);
     }
 }
